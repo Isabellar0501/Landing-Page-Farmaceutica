@@ -9,7 +9,7 @@
     text-decoration: none;
 }
 :root{
-    --red:#B44874;
+    --pink:#B44874;
     --white:#fff;
     --dark:#1e1c2a;
 }
@@ -41,7 +41,7 @@ body{
     transition: all 0.5s;
 }
 .navigation ul li a:hover{
-    color: var(--red);
+    color: var(--pink);
 }
 .navigation i{
     cursor: pointer;
@@ -63,7 +63,7 @@ body{
 }
 .menu .bar:nth-child(1),
 .menu .bar:nth-child(3){
-    background: var(--red);
+    background: var(--pink);
 }
 
 .home{
@@ -79,7 +79,7 @@ body{
 }
 .home-text .text-h4{
     font-size: 1.5rem;
-    color: var(--red);
+    color: var(--pink);
     margin-bottom: 1rem;
 }
 .home-text .text-h1{
@@ -92,7 +92,7 @@ body{
 }
 .home-btn{
     padding: 15px 45px;
-    background: var(--red);
+    background: var(--pink);
     color: var(--white);
     border-radius: 10px;
     font-weight: 700;
