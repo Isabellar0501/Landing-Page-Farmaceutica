@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <title>webSite</title>
 </head>
@@ -16,7 +17,7 @@
             <ul class="nav-menu">
                 <li class="nav-item"><a href="#">Home</a></li>
                 <li class="nav-item"><a href="#">Sobre Nós</a></li>
-                <li class="nav-item"><a href="#">Contato</a></li>
+                <li class="nav-item"><a href="">Contato</a></li>
                 <li class="nav-item"><a href="./login.html">Login</a></li>
                 <i class='bx bx-search'></i>
             </ul>
@@ -43,6 +44,33 @@
         </section>
     </main>    
         
+    <section>
+        <div class="container">
+            <h1 class="text-h1">Perguntas Frequêntes</h1>
+            <br>
+            <ul class="perguntas">
+                <li>
+                <h2 class="pergunta-titulo" onclick="togglePergunta(this)">Como digitalizar os recibos?
+                    <i class="fas fa-chevron-up"></i>
+                </h2>
+                <p class="pergunta-descricao">Alguma explicação ou detalhes adicionais sobre a pergunta.</p>
+                </li>
+                <li>
+                <h2 class="pergunta-titulo" onclick="togglePergunta(this)">O Recibo Ágil é gratuito?
+                    <i class="fas fa-chevron-up"></i>
+                </h2>
+                <p class="pergunta-descricao">Alguma explicação ou detalhes adicionais sobre a pergunta.</p>
+                </li>
+                <li>
+                <h2 class="pergunta-titulo" onclick="togglePergunta(this)">Como posso visualizar?
+                    <i class="fas fa-chevron-up"></i>
+                </h2>
+                <p class="pergunta-descricao">Alguma explicação ou detalhes adicionais sobre a pergunta.</p>
+                </li>
+            </ul>
+            </div>
+    </section>
+
     <section class="home">
         <div class="home-text">
             <h4 class="text-h4">Bem-Vindo ao Novo</h4>
@@ -51,7 +79,7 @@
             <a href="#" class="home-btn">Conheça Mais</a>
         </div>
         <div class="home-img">
-            <img src="assets/appFinance.png">
+            <img src="assets/aboutUs.png" class="image-animation" alt="Imagem com animação">
         </div>
     </section>
 
