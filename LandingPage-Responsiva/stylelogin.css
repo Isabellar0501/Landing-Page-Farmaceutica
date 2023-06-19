@@ -41,7 +41,10 @@ form input {
     display: inline-table;
     justify-content: space-between;
     align-items: right;
-    margin-bottom: 10px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .options label {
@@ -69,6 +72,7 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background-color: #e25088;
 }
+
 
 h2{
     color: var(--pink);

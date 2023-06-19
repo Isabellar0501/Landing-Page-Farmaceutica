@@ -27,6 +27,7 @@ body{
     background: var(--white);
     transition: all 0.5s;
     position: fixed;
+    z-index: 9999;
 }
 
 .navigation ul{
@@ -91,7 +92,7 @@ body{
     margin-bottom: 4rem;
 }
 .home-btn{
-    padding: 15px 45px;
+    padding: 15px 45px; 
     background: var(--pink);
     color: var(--white);
     border-radius: 10px;
