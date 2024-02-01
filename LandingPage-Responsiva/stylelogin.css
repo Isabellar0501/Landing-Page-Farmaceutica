@@ -208,3 +208,30 @@ body{
 .container.active .toggle-right{
     transform: translateX(200%);
 }
+
+.user input, .user button {
+    display: inline-block;
+}
+
+canvas{
+    border: none;
+    background-color: #e8e8e8;
+    border-radius: 4px;
+    border: 2px solid #B44874;
+    border-radius: 6px;
+}
+
+#captcha-container {
+    display: flex;
+    align-items: center;
+}
+
+#captcha {
+    margin-right: 10px; 
+}
+
+#captcha-input,
+#check-captcha {
+    display: inline-block;
+    vertical-align: middle;
+}

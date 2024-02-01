@@ -25,7 +25,13 @@
                 <input type="text" placeholder="Nome">
                 <input type="email" placeholder="Email">
                 <input type="password" placeholder="Senha">
-                <button>Criar conta</button>
+                <div id="captcha-container">
+                    <canvas id="captcha" width="150" height="40"></canvas>
+                    <button type="button" id="reload-captcha">↻</button>
+                </div>
+                <input type="text" id="captcha-input" placeholder="Enter CAPTCHA">
+                <span id="captcha-status">Aguardando...</span>
+                <button type="button" id="check-captcha">Criar conta</button>
             </form>
         </div>
         <div class="form-container sign-in">
@@ -61,6 +67,9 @@
     </div>
 
     <script src="scriptlogin.js"></script>
+    <script src="scriptcaptcha.js"></script>
+
+</body>
 </body>
 
 </html>
