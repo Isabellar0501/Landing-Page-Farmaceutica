@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
         var captchaText = generateCaptchaText(6);
         drawCaptcha(captchaText);
         document.getElementById('captcha-input').value = '';
-        captchaStatus.textContent = 'Status : IDLE';
+        captchaStatus.textContent = 'Aguardando...';
     }
 
     function verifyCaptcha(captchaText) {
