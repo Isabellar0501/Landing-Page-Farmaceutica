@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
             captchaStatus.textContent = 'Captcha verificado corretamente!';
             captchaStatus.style.color = 'green';
         } else if (inputText.length < 6) {
-            captchaStatus.textContent = 'Enter all characters!';
+            captchaStatus.textContent = 'Digite todos os caracteres!';
             captchaStatus.style.color = 'red';
         } else {
             captchaStatus.textContent = 'Incorreto, tente novamente!';
