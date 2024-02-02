@@ -13,3 +13,17 @@ loginBtn.addEventListener('click', () => {
         container.classList.remove("active");
     }
 });
+
+
+function performLogin() {
+    
+    var email = document.getElementById('emailInput').value;
+    var password = document.getElementById('passwordInput').value;
+
+    
+    if (email === 'emailteste@gmail.com' && password === '123456789') {
+        window.location.href = 'dashboard.html';
+    } else {
+        alert('Credenciais incorretas. Tente novamente!');
+    }
+}
